@@ -5,18 +5,21 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Your Name) Datasheet</font><br>
+<font size= "6">(Dahryl Williams) Datasheet</font><br>
 as part of<br>
 <font size= "8"> Project Name</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 207 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: 09, 02, 2026**
 </center>
 
-## Introduction
+## Welcome my name is Dahryl
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This data sheet will be used to track the teams progress on this project
+
+.....|......
+data | data  
 
 ### Project Summary
 
