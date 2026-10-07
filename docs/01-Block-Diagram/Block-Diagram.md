@@ -1,24 +1,17 @@
 ---
 title: Individal Block Diagram
 tags:
-- tag1
-- tag2
+- Individual Block Diagram
+- Light Sensor
 ---
 
 ## Overview
 This needs to be updated with a brief purpose for having the block diagram.
 Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
-
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+The purpose of this block diagram is to display the connections of the light sensor aspect for the teams dorm hub product. This block diagram is powered by the 5V battery, it has directed lighting that's through the light sensor through the op-amp to the microcontrollers ADC. The microcontroller processes the sensor input and uses PWM through RA2 to control an LED. This controller connects from pin 2 to Chris's UART pin(RC3)
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+## Individual Block Diagram 
+
+![ Indivial Block diagram ](Block Diagram_Team 207_Dahryl Williams.drawio (1).png)
