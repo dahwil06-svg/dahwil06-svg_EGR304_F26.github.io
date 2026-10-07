@@ -13,4 +13,4 @@ The purpose of this block diagram is to display the connections of the light sen
 
 ## Individual Block Diagram 
 
-![ Indivial Block diagram ](Block Diagram_Team 207_Dahryl Williams.drawio (1).png)
+![ Indivial Block diagram ](Block Diagram_Team 207_Dahryl Williams.drawio.svg)
