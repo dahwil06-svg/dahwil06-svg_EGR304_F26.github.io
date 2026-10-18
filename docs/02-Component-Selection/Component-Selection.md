@@ -11,7 +11,7 @@ title: Component Selection Example
 
 1. BU27030NUC-E2 surface mount Ambient,IR
 
-    ![](Screenshot-2026-10-17-194944.svg)
+    ![](Screenshot 2026-10-17 194944.png)
 
     * $0.074/each unit
     * [Link to product](https://www.digikey.com/en/products/detail/rohm-semiconductor/BU27030NUC-E2/13919381)
@@ -24,7 +24,7 @@ title: Component Selection Example
 
 2. APDS-9251-001 surface mount Ambient,IR
 
-    ![](Screenshot-2026-10-17-200802.svg)
+    ![](Screenshot 2026-10-17%2200802.png)
 
     * $1.83/each
     * [Link to product](https://www.digikey.com/en/products/detail/broadcom-limited/APDS-9251-001/10135043)
@@ -36,7 +36,7 @@ title: Component Selection Example
     | small size |
 
 3. OPT3004DTST Surface mount Ambeint,IR
-    ![]()
+    ![](Screenshot 2026-10-17%2230415.png)
 
     * $1.97/each unit
     * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/OPT3004DTST/15926658)
