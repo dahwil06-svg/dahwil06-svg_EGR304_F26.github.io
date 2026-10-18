@@ -3,11 +3,10 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+The first power budget is for the op-amp, microcontroller, and light sensor to see how the power will be distributed.
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
+![budget1](Screenshot-2026-10-17-225051.svg){style width:"350" height:"300;"}
 
 ![budget2](budgetPg2.png){style width:"350" height:"300;"}
 
