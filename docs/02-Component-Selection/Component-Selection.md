@@ -2,57 +2,52 @@
 title: Component Selection Example
 ---
 
-## Examples
 
-### Style 1
 
-> This is the example found in the assignment, uses more html
 
-*Table 1: Example component selection*
+*Table 1: Light Sensor*
 
-**External Clock Module**
+**Ambient light module**
 
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+1. BU27030NUC-E2 surface mount Ambient,IR
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+    ![](Screenshot-2026-10-17-194944.svg)
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $0.074/each unit
+    * [Link to product](https://www.digikey.com/en/products/detail/rohm-semiconductor/BU27030NUC-E2/13919381)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Inexpensive                               | not a full RGB color sensor |
+    | direct PCB heat sinking                  | No distance sensing                                        |
     | Meets surface mount constraint of project |
 
-1. CTX936TR-ND surface mount oscillator
+2. APDS-9251-001 surface mount Ambient,IR
 
-    ![](image3.png)
+    ![](Screenshot-2026-10-17-200802.svg)
 
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * $1.83/each
+    * [Link to product](https://www.digikey.com/en/products/detail/broadcom-limited/APDS-9251-001/10135043)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    | digital output simplifies connection to microcontroller                                             | difficult to solder      |
+    | no analog-digital converter needed                                 | No built in proximity detection|
+    | small size |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+3. OPT3004DTST Surface mount Ambeint,IR
+    ![]()
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+    * $1.97/each unit
+    * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/OPT3004DTST/15926658)
+
+     | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | reduced inteference with infrared light sources                              | needs careful placement |
+    | designed to match the human eye                  | small package making diffciult to solder                                       |
+    | compact design |
+
+
+**Choice:** Option 2: APDS-9251-001 surface mount Ambient,IR
+
+**Rationale:** This ambient IR sensor is the best option because it can measure RGB and infrared light. Its best for dtetcting lighting conditions and color temperature; its not exclusive to level of brightness. It's small and compact, although it's hard to solder it doesnt take up much PCB space.
