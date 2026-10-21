@@ -6,8 +6,8 @@ title: Schematic
 
 This schematic is design to support the ambient light sensor portion of the the teams dorm hub
 
-![schematic](schematic.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+![schematic](schematic.png)
+**Figure 01:** This shows the light sensor schematic
 
 
 ## Resources
