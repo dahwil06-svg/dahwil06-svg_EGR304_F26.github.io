@@ -4,13 +4,12 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to support the ambient light sensor portion of the the teams dorm hub
 
-
-![schematic](Screenshot.png){style width:"350" height:"300;"}
+![schematic](schematic.png){style width:"350" height:"300;"}
 **Figure ##:** Showing a example schematic.
 
 
-## Resouces
+## Resources
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](schematic.png), and the Zip folder of the project [*here*](individual-subsystem%20schematic%20design.zip).
