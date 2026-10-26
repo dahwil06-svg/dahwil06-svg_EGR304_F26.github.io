@@ -6,7 +6,7 @@ title: Power Budget
 The first power budget is for the op-amp, microcontroller, and light sensor to see how the power will be distributed.
 
 
-![budget1](BOM.png){style width:"350" height:"300;"}
+![budget1](BOM.png)
 
 
 
