@@ -16,15 +16,16 @@ for<br>
 
 ## Welcome my name is Dahryl
 
-* This data sheet will be used to track the teams progress on this project
+* Data sheet
 
 .....|......
-data | data  
+[block diagram](https://dahwil06-svg.github.io/dahwil06-svg_EGR304_F26.github.io/01-Block-Diagram/Block-Diagram/)| [component selection](https://dahwil06-svg.github.io/dahwil06-svg_EGR304_F26.github.io/02-Component-Selection/Component-Selection/)
+[power budget](BOM.png)
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* My portion of the team project is to make sure that the light sensor communicates to the main micro controller (Chris)
+*  [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
 
 
 ### My Contribution
