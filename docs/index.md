@@ -18,9 +18,8 @@ for<br>
 
 * Data sheet
 
-.....|......
-[block diagram](https://dahwil06-svg.github.io/dahwil06-svg_EGR304_F26.github.io/01-Block-Diagram/Block-Diagram/)| [component selection](https://dahwil06-svg.github.io/dahwil06-svg_EGR304_F26.github.io/02-Component-Selection/Component-Selection/)
-[power budget](BOM.png)
+[block diagram](https://dahwil06-svg.github.io/dahwil06-svg_EGR304_F26.github.io/01-Block-Diagram/Block-Diagram/)| [component selection](https://dahwil06-svg.github.io/dahwil06-svg_EGR304_F26.github.io/02-Component-Selection/Component-Selection/)|
+[power budget](BOM.png)|
 
 ### Project Summary
 
