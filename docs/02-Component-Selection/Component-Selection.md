@@ -53,6 +53,7 @@ title: Component Selection Example
 **Rationale:** This ambient IR sensor is the best option because it can measure RGB and infrared light. Its best for dtetcting lighting conditions and color temperature; its not exclusive to level of brightness. It's small and compact, although it's hard to solder it doesnt take up much PCB space.
 
 *Table 2: power supply*
+
 **Power supply module**
 
 1. 16-00078 AC DC, adapter
