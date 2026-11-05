@@ -92,5 +92,6 @@ title: Component Selection Example
 |wider AC input voltage range               | larger dimensions|   
 
 **Choice:** Option 2: WSU120-0700 AC DC, adapter
+
 **Rationale:** Its most suitable for this projects need. The light sensor portion will not need more than 9V to operate and it has an appropiate amount for max current. 
  
