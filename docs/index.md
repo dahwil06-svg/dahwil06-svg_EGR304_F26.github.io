@@ -20,7 +20,6 @@ for<br>
 
 [block diagram](https://dahwil06-svg.github.io/dahwil06-svg_EGR304_F26.github.io/01-Block-Diagram/Block-Diagram/)| [component selection](https://dahwil06-svg.github.io/dahwil06-svg_EGR304_F26.github.io/02-Component-Selection/Component-Selection/)|
 [power budget](BOM.png)| [schematic](https://dahwil06-svg.github.io/dahwil06-svg_EGR304_F26.github.io/04-Schematic/schematic/)
-
 ### Project Summary
 
 * My portion of the team project is to make sure that the light sensor communicates to the main micro controller (Chris)
